@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: white;
+    font-family: Roboto, sans-serif;;
+}
+.title, .description {
+    text-align: center;
+}
+.container {
+    border-style: solid;
+    padding: 15px;
+    border-radius: 15px;
+}
+input {
+    width: 95%;
+    padding: 7.5px;
+    border-radius: 5px;;
+    border-style: solid;
+    margin-bottom: 12.5px;
+}
+.submit-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+    border-radius: 7.5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.submit-btn:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.reset-btn {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    border-radius: 7.5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.reset-btn:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
