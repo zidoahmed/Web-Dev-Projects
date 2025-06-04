@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ying Yang ltd.</title>
+    <title>Yiwu Ying ltd.</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-          <h1 id="title">Ying Yang ltd. survey form</h1>
+          <h1 id="title">Yiwu Ying Ltd. survey form</h1>
       <p id="description">"Fullfiling customer's needs"</p>
-    <div>
+    <div class="container">
         <form id="survey-form">
           <div>
             <label for="name">Full name</label><br>
             <input type="text" id="name" placeholder="Enter Your Name..." required><br>
             <label for="email">Email</label><br>
             <input type="email" id="email" placeholder="Enter Your Email..." required><br>
-            <label for="age">Age (optional)</label><br>
+            <label for="age" >Age (optional)</label><br>
             <input type="number" id="age" placeholder="Enter Your Age..." min="15" max="35"><br>
             <label for="role">Which role describes you best?</label><br>
             <select id="role">
@@ -25,9 +25,9 @@
                 <option value="full-time-learner">full-time learner</option>
                 <option value="not-say">Prefer not to say</option>
             </select><br>
-            <label for="recommendatiom">Would you recommend Yiwu Ying Ltd. to a friend?</label><br>
+            <label for="recommendation">Would you recommend Yiwu Ying Ltd. to a friend?</label><br>
             <div>
-                <input type="radio" id="definitely" name="recommendation" value="definitely" required>
+                <input type="radio" id="definitely" name="recommendation" value="definitely" checked>
                 <label for="definitely">Definitely</label><br>
                 <input type="radio" id="maybe" name="recommendation" value="maybe">
                 <label for="maybe">Maybe</label><br>
@@ -59,8 +59,14 @@
                 <label for="customer-service">Improved customer service</label><br>
                 <input type="checkbox" id="other" name="improvement" value="other">
                 <label for="other">Other</label>
+            </div><br>
+            <div>
+                <label for="comment">Would you like to give any comments or other suggestions?</label><br>
+                <textarea id="" rows="10" cols="65">
+                    Enter your comments here                    
+                </textarea>
             </div>
-            <br>
+            <button type="submit" class="submit-btn">Submit</button>
           </div>
         </form>
     </div>
