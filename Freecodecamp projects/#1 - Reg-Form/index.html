@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ying Yang ltd.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+          <h1 id="title">Ying Yang ltd. survey form</h1>
+      <p id="description">"Fullfiling customer's needs"</p>
+    <div>
+        <form id="survey-form">
+          <div>
+            <label for="name">Full name</label><br>
+            <input type="text" id="name" placeholder="Enter Your Name..." required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter Your Email..." required><br>
+            <label for="age">Age (optional)</label><br>
+            <input type="number" id="age" placeholder="Enter Your Age..." min="15" max="35"><br>
+            <label for="role">Which role describes you best?</label><br>
+            <select id="role">
+                <option value="student">Select an option</option>
+                <option value="full-time-job">full-time job</option>
+                <option value="part-time-job">part-time job</option>
+                <option value="full-time-learner">full-time learner</option>
+                <option value="not-say">Prefer not to say</option>
+            </select><br>
+            <label for="recommendatiom">Would you recommend Yiwu Ying Ltd. to a friend?</label><br>
+            <div>
+                <input type="radio" id="definitely" name="recommendation" value="definitely" required>
+                <label for="definitely">Definitely</label><br>
+                <input type="radio" id="maybe" name="recommendation" value="maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" id="not-sure" name="recommendation" value="not-sure">
+                <label for="not-sure">Not sure</label><br>
+            </div><br>
+            <label for="feature">What's your favorite feature in Yiwu Ying Ltd.'s website?</label><br>
+            <select id="feature">
+                <option value="">Select an option</option>
+                <option value="">Goods tracking</option>
+                <option value="">Debt tracking</option>
+                <option value="">Shipping info page</option>
+                <option value="">Custom shipping template</option>
+            </select><br>
+            <label for="improvement">What would you like to see improved? (Check all that apply)</label>
+            <br>
+            <div>
+                <input type="checkbox" id="faster-shipping" name="improvement" value="faster-shipping">
+                <label for="faster-shipping">Faster shipping times</label><br>
+                <input type="checkbox" id="tracking-accuracy" name="improvement" value="tracking-accuracy">
+                <label for="tracking-accuracy">More accurate tracking</label><br>
+                <input type="checkbox" id="customs-support" name="improvement" value="customs-support">
+                <label for="customs-support">Better customs/import support</label><br>
+                <input type="checkbox" id="shipping-cost" name="improvement" value="shipping-cost">
+                <label for="shipping-cost">Lower shipping costs</label><br>
+                <input type="checkbox" id="import-export-info" name="improvement" value="import-export-info">
+                <label for="import-export-info">Clearer import/export information</label><br>
+                <input type="checkbox" id="customer-service" name="improvement" value="customer-service">
+                <label for="customer-service">Improved customer service</label><br>
+                <input type="checkbox" id="other" name="improvement" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+          </div>
+        </form>
+    </div>
+  </body>
+</html>
